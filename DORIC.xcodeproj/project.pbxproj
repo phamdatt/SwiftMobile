@@ -36,14 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		610B3961289A76A40044DB37 /* MobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610B3961289A76A40044DB37 /* DORIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DORIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		610B3964289A76A50044DB37 /* MobileAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppApp.swift; sourceTree = "<group>"; };
 		610B3966289A76A50044DB37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		610B3968289A76A50044DB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		610B396B289A76A50044DB37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		610B3971289A76A50044DB37 /* MobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		610B3971289A76A50044DB37 /* DORICTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DORICTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		610B3975289A76A50044DB37 /* MobileAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppTests.swift; sourceTree = "<group>"; };
-		610B397B289A76A50044DB37 /* MobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		610B397B289A76A50044DB37 /* DORICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DORICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		610B397F289A76A50044DB37 /* MobileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppUITests.swift; sourceTree = "<group>"; };
 		610B3981289A76A50044DB37 /* MobileAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		610B398E289A82D40044DB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		610B3962289A76A40044DB37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				610B3961289A76A40044DB37 /* MobileApp.app */,
-				610B3971289A76A50044DB37 /* MobileAppTests.xctest */,
-				610B397B289A76A50044DB37 /* MobileAppUITests.xctest */,
+				610B3961289A76A40044DB37 /* DORIC.app */,
+				610B3971289A76A50044DB37 /* DORICTests.xctest */,
+				610B397B289A76A50044DB37 /* DORICUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		610B3960289A76A40044DB37 /* MobileApp */ = {
+		610B3960289A76A40044DB37 /* DORIC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 610B3985289A76A50044DB37 /* Build configuration list for PBXNativeTarget "MobileApp" */;
+			buildConfigurationList = 610B3985289A76A50044DB37 /* Build configuration list for PBXNativeTarget "DORIC" */;
 			buildPhases = (
 				610B395D289A76A40044DB37 /* Sources */,
 				610B395E289A76A40044DB37 /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = MobileApp;
+			name = DORIC;
 			productName = MobileApp;
-			productReference = 610B3961289A76A40044DB37 /* MobileApp.app */;
+			productReference = 610B3961289A76A40044DB37 /* DORIC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		610B3970289A76A50044DB37 /* MobileAppTests */ = {
+		610B3970289A76A50044DB37 /* DORICTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 610B3988289A76A50044DB37 /* Build configuration list for PBXNativeTarget "MobileAppTests" */;
+			buildConfigurationList = 610B3988289A76A50044DB37 /* Build configuration list for PBXNativeTarget "DORICTests" */;
 			buildPhases = (
 				610B396D289A76A50044DB37 /* Sources */,
 				610B396E289A76A50044DB37 /* Frameworks */,
@@ -176,14 +176,14 @@
 			dependencies = (
 				610B3973289A76A50044DB37 /* PBXTargetDependency */,
 			);
-			name = MobileAppTests;
+			name = DORICTests;
 			productName = MobileAppTests;
-			productReference = 610B3971289A76A50044DB37 /* MobileAppTests.xctest */;
+			productReference = 610B3971289A76A50044DB37 /* DORICTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		610B397A289A76A50044DB37 /* MobileAppUITests */ = {
+		610B397A289A76A50044DB37 /* DORICUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 610B398B289A76A50044DB37 /* Build configuration list for PBXNativeTarget "MobileAppUITests" */;
+			buildConfigurationList = 610B398B289A76A50044DB37 /* Build configuration list for PBXNativeTarget "DORICUITests" */;
 			buildPhases = (
 				610B3977289A76A50044DB37 /* Sources */,
 				610B3978289A76A50044DB37 /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				610B397D289A76A50044DB37 /* PBXTargetDependency */,
 			);
-			name = MobileAppUITests;
+			name = DORICUITests;
 			productName = MobileAppUITests;
-			productReference = 610B397B289A76A50044DB37 /* MobileAppUITests.xctest */;
+			productReference = 610B397B289A76A50044DB37 /* DORICUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 610B395C289A76A40044DB37 /* Build configuration list for PBXProject "MobileApp" */;
+			buildConfigurationList = 610B395C289A76A40044DB37 /* Build configuration list for PBXProject "DORIC" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				610B3960289A76A40044DB37 /* MobileApp */,
-				610B3970289A76A50044DB37 /* MobileAppTests */,
-				610B397A289A76A50044DB37 /* MobileAppUITests */,
+				610B3960289A76A40044DB37 /* DORIC */,
+				610B3970289A76A50044DB37 /* DORICTests */,
+				610B397A289A76A50044DB37 /* DORICUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		610B3973289A76A50044DB37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 610B3960289A76A40044DB37 /* MobileApp */;
+			target = 610B3960289A76A40044DB37 /* DORIC */;
 			targetProxy = 610B3972289A76A50044DB37 /* PBXContainerItemProxy */;
 		};
 		610B397D289A76A50044DB37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 610B3960289A76A40044DB37 /* MobileApp */;
+			target = 610B3960289A76A40044DB37 /* DORIC */;
 			targetProxy = 610B397C289A76A50044DB37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -505,7 +505,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileApp.app/MobileApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DORIC.app/DORIC";
 			};
 			name = Debug;
 		};
@@ -525,7 +525,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileApp.app/MobileApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DORIC.app/DORIC";
 			};
 			name = Release;
 		};
@@ -568,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		610B395C289A76A40044DB37 /* Build configuration list for PBXProject "MobileApp" */ = {
+		610B395C289A76A40044DB37 /* Build configuration list for PBXProject "DORIC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				610B3983289A76A50044DB37 /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		610B3985289A76A50044DB37 /* Build configuration list for PBXNativeTarget "MobileApp" */ = {
+		610B3985289A76A50044DB37 /* Build configuration list for PBXNativeTarget "DORIC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				610B3986289A76A50044DB37 /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		610B3988289A76A50044DB37 /* Build configuration list for PBXNativeTarget "MobileAppTests" */ = {
+		610B3988289A76A50044DB37 /* Build configuration list for PBXNativeTarget "DORICTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				610B3989289A76A50044DB37 /* Debug */,
@@ -595,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		610B398B289A76A50044DB37 /* Build configuration list for PBXNativeTarget "MobileAppUITests" */ = {
+		610B398B289A76A50044DB37 /* Build configuration list for PBXNativeTarget "DORICUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				610B398C289A76A50044DB37 /* Debug */,
