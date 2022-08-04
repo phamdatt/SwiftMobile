@@ -15,7 +15,7 @@ struct OnboadingView: View {
             Button(action:{
                 isOnboardingViewActive = false
             }){
-                Text("Start")
+                Text("Startsss")
             }
         }
     }
